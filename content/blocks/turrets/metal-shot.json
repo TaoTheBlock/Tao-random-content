@@ -14,7 +14,7 @@
   ],
   "health": 420,
   "size": 2,
-  "range": 96,
+  "range": 160,
   "reload": 16,
   "inaccuracy": 2,
   "ammo":{
@@ -44,7 +44,25 @@
       "lifetime": 34,
       "speed": 3.25,
       "damage": 20
+    },
+
+    "raw-gold":{
+      "lifetime": 30,
+      "speed": 2,
+      "damage": 7,
+      "reloadMultiplier": 1.35,
+      "ammoMultiplier": 2
+    },
+
+    "gold-bar":{
+      "lifetime": 36,
+      "speed": 3,
+      "damage": 10,
+      "reloadMultiplier": 1.2,
+      "ammoMultiplier": 2
     }
   },
-  "maxAmmo": 20
+  "maxAmmo": 20,
+  "category": "turret",
+  "buildVisibility": "shown"
 }

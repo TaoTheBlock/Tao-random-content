@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "name": "Iron Ore",
+  "itemDrop": "raw-iron",
+  "oreScale": 27.4,
+  "isLiquid": false,
+  "variants": 1
+}
