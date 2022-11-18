@@ -1,0 +1,50 @@
+{
+  "type": "ItemTurret",
+  "name": "Metal Shot",
+  "description": "A turret where it shoot a metal.",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 45
+    },
+    {
+      "item": "lead",
+      "amount": 75
+    }
+  ],
+  "health": 420,
+  "size": 2,
+  "range": 96,
+  "reload": 16,
+  "inaccuracy": 2,
+  "ammo":{
+    "copper":{
+      "lifetime": 23,
+      "speed": 2,
+      "damage": 9,
+      "inaccuracy": 3
+    },
+
+    "lead":{
+      "lifetime": 23,
+      "speed": 3.1,
+      "damage": 10,
+      "reloadMultiplier": 1.15
+    },
+
+    "raw-iron":{
+      "lifetime": 27,
+      "speed": 1.8,
+      "damage": 12,
+      "reloadMultiplier": 0.95,
+      "inaccuracy": 6
+    },
+
+    "iron-bar":{
+      "lifetime": 34,
+      "speed": 3.25,
+      "damage": 20
+    }
+  },
+  "maxAmmo": 20
+}

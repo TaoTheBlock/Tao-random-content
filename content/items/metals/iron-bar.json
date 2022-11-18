@@ -1,0 +1,6 @@
+{
+  "type": "Item",
+  "name": "Iron Bar",
+  "description": "An iron bar smelted from raw iron.",
+  "cost": 3
+}
