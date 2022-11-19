@@ -1,5 +1,5 @@
 {
-  "type": "GenericSmelter",
+  "type": "GenericCrafter",
   "name": "Iron Smelter",
   "description": "A cheap ore smelter. Used to smelt raw iron.",
   "health": 250,
