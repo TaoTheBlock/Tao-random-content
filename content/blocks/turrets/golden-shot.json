@@ -1,0 +1,36 @@
+{
+  "type": "ItemTurret",
+  "name": "Golden Shots",
+  "description": "A golden turret for rich people? Used gold as ammo.",
+  "health": 90,
+  "size": 2,
+  "requirements": [
+    "gold-bar/65",
+    "lead/175",
+    "copper/210",
+    "silicon/45"
+  ],
+  "reloadTime": 32,
+  "shots": 2,
+  "inaccuracy": 7,
+  "range": 194,
+  "ammoTypes": {
+    "raw-gold": {
+      "type": "BasicBulletType",
+      "damage": 19,
+      "lifetime": 54,
+      "speed": 3.4,
+      "ammoMultiplier": 3,
+      "inaccuracy": 5
+    },
+    "gold-bar": {
+      "type": "BasicBulletType",
+      "damage": 26,
+      "lifetime": 60,
+      "speed": 3.56,
+      "inaccuracy": -4,
+      "reloadMultiplier": 0.87
+    }
+  },
+  "catagory": "turret"
+}

@@ -1,12 +1,12 @@
 {
   "type": "GenericCrafter",
   "name": "Iron Smelter",
-  "description": "A cheap ore smelter. Used to smelt raw iron.",
+  "description": "A cheap iron smelter. Used to smelt raw iron.",
   "health": 250,
   "requirements": [
-    "copper/110",
-    "lead/135",
-    "silicon/15"
+    "copper/150",
+    "lead/155",
+    "silicon/25"
   ],
   "size": 2,
   "category": "crafting",
@@ -14,15 +14,17 @@
   "hasItems": true,
   "hasLiquids": false,
   "hasPower": false,
-  "itemCapacity": 16,
+  "itemCapacity": 18,
   "consumes": {
     "items":{
       "items":[
-        "raw-iron/4",
-        "coal/2"
+        "raw-iron/6",
+        "coal/3"
       ]
     }
   },
+  "updateEffect": "smoke",
+  "updateEffectChance": 0.1,
   "outputItem": "iron-bar/1",
-  "craftTime": 100
+  "craftTime": 43
 }
