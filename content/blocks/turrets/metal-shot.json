@@ -1,53 +1,52 @@
 {
   "type": "ItemTurret",
   "name": "Metal Shot",
-  "description": "A turret where it shoot a metal.",
+  "description": "A cheap turret where it shoot a metal or raw ores.",
   "requirements": [
-    {
-      "item": "copper",
-      "amount": 45
-    },
-    {
-      "item": "lead",
-      "amount": 75
-    }
+    "copper/35",
+    "lead/50"
   ],
-  "health": 420,
+  "health": 340,
   "size": 2,
-  "range": 160,
-  "reload": 16,
-  "inaccuracy": 2,
+  "range": 155,
+  "reload": 30,
+  "inaccuracy": 3,
   "ammo":{
     "copper":{
-      "lifetime": 23,
+      "type": "BasicBulletType",
+      "lifetime": 50,
       "speed": 2,
       "damage": 9,
       "inaccuracy": 3
     },
 
     "lead":{
-      "lifetime": 23,
+      "type": "BasicBulletType",
+      "lifetime": 50,
       "speed": 3.1,
       "damage": 10,
       "reloadMultiplier": 1.15
     },
 
     "raw-iron":{
-      "lifetime": 27,
-      "speed": 1.8,
+      "type": "BasicBulletType",
+      "lifetime": 50,
+      "speed": 1.73,
       "damage": 12,
       "reloadMultiplier": 0.95,
       "inaccuracy": 6
     },
 
     "iron-bar":{
-      "lifetime": 34,
-      "speed": 3.25,
+      "type": "BasicBulletType",
+      "lifetime": 50,
+      "speed": 2.7,
       "damage": 20
     },
 
     "raw-gold":{
-      "lifetime": 30,
+      "type": "BasicBulletType",
+      "lifetime": 50,
       "speed": 2,
       "damage": 7,
       "reloadMultiplier": 1.35,
@@ -55,9 +54,10 @@
     },
 
     "gold-bar":{
-      "lifetime": 36,
-      "speed": 3,
-      "damage": 10,
+      "type": "BasicBulletType",
+      "lifetime": 50,
+      "speed": 2.5,
+      "damage": 11,
       "reloadMultiplier": 1.2,
       "ammoMultiplier": 2
     }
