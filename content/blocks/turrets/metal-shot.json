@@ -9,7 +9,7 @@
   "health": 340,
   "size": 2,
   "range": 155,
-  "reload": 30,
+  "reloadTime": 30,
   "inaccuracy": 3,
   "ammoTypes":{
     "copper":{
