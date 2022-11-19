@@ -23,9 +23,6 @@
       ]
     }
   },
-  "outputItem": {
-    "item": "iron-bar",
-    "amount": 1
-  },
-  "craftTime": 70
+  "outputItem": "iron-bar/1",
+  "craftTime": 100
 }
