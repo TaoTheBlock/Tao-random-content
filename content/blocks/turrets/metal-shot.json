@@ -11,7 +11,7 @@
   "range": 155,
   "reload": 30,
   "inaccuracy": 3,
-  "ammo":{
+  "ammoTypes":{
     "copper":{
       "type": "BasicBulletType",
       "lifetime": 50,
